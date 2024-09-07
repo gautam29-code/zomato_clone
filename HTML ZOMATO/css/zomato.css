@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&family=Poppins:wght@300&family=Roboto+Condensed&display=swap');
+
+body{
+ margin: 0;
+ padding: 0;
+ text-decoration: none;  
+ overflow-x: hidden; 
+}
+header{
+    width:100%;
+    height: 60vh;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 5vh;
+
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 15px 301px;
+}
+.head img{
+    position: absolute;
+    top: -20vh;
+    z-index: -3;
+    width: -moz-available;
+}
+.nav ul a{
+    color: white;
+    text-decoration:none ;
+    font-size: 18px;
+}
+.nav ul a:hover{
+    color: aqua;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+}
+
+.logo img{
+    width:40vh;
+}
+
+.logo h3{
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: lighter;
+    margin: 15px;
+}
+
+.search{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content:flex-start;
+    border-radius: 10px;
+    background-color: white;
+    margin: -83px 378px;
+    padding: 10px 0px;
+}
+.search select{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.411);
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10%;
+    font-size: 18px;
+
+}
+.sec-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13vh;
+}
+.box{
+    position: relative;
+    width: 360px;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow:0 1px 2px gray;
+    background-color: rgb(243,240,240);
+    height: 329px;
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgb(211, 202, 202);
+    z-index: -1;
+
+}
+.white{
+    position: absolute;
+    bottom: 3px;
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+    text-align: center;
+}
+.white span{
+    text-align: center;
+    font-size: 31px;
+    color: rgb(56,56,56);
+    letter-spacing: 0.7px;
+}
+.white p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(56,56,56);
+    letter-spacing: 0.5px;
+    margin: 3px;
+}
+
+.middle{
+    margin: 60px 150px;
+}
+.sec-2 h1{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.sec-2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sec-2 h6{
+    margin: 0;
+    font-size: 24px;
+    font-weight: lighter;
+    color: rgb(99,98,98);
+}
+.sec-2 div a{
+    color: rgb(248,117,117);
+    text-decoration: none;
+    font-size: 19px;
+}
+.sec-2 div a:hover{
+    color: red;
+}
+
+.box-1{
+    width: 255x;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+.box-1 div{
+    position: absolute;
+    background: linear-gradient(#0000,#00000047);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+
+}
+
+.box-1 div span {
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 25px;
+
+
+}
+
+.box-1 img{
+    height: 255px;
+    width: 300px;
+    object-fit: cover;
+}
+.sec-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.middle h1{
+    font-size: 50px;
+    font-weight: lighter;
+    margin:50px -3px;
+    color: rgb(56,56,56);
+}
+.sec-4{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 97px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+}
+
+.box2{
+    border: 1px solid rgb(235,233,233);
+    box-shadow: 0 1px 3px rgb(226,223,223);
+    width: 356px;
+    height: 83px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.box2 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+.box2 div span{
+    color: rgb(65,64,64);
+    font-size: 25px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: norwap;
+}
+
+.box2 div span a{
+    text-decoration: none;
+    color: rgb(49, 43, 43);
+}
+
+.sec-5{
+    display: flex;
+    margin: 90px 0px;
+    padding: 40px 0px;
+    justify-content: center;
+    background-color: rgb(255,248,248);
+}
+
+.f-img{
+    display: flex;
+    width: 760px;
+    overflow: hidden;
+}
+
+.f-img img{
+    width: 317px;
+    height: 417px;
+    padding-right: 40px;
+}
+.address{
+    width: 470px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.address p{
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    color: rgb(92,91,91);
+}
+.address h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgb(34,34,34);
+
+}
+
+.f-radio{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+
+}
+.f-radio label{
+    font-size: 1.1rem;
+    color: rgb(49,49,49);
+}
+.radio [type="radio"]{
+    accent-color: rgb(255,92,92);
+}
+.f-email{
+    position: relative;
+}
+.f-email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(184,183,183);
+    outline: rgb(255,92,92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+
+}
+.place{
+    position: absolute;
+    font-size: 1.3rem;
+    left: 15px;
+    top: 13px;
+    color: gray;
+    font-weight: lighter;
+
+}
+.f-email button{
+    width:150px ;
+    border-radius: 6px;
+    border: 1px solid rgb(253,104,104);
+    background-color: rgb(253,104,104);
+    font-size: 1.1rem;
+    margin-left: 6px;
+    color: white;
+}
+.download{
+    font-size: 0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: gray;
+
+}
+.f-app img{
+    width: 137px;
+    height: 40px;
+}
+
+.fotter{
+    display: flex;
+    background-color: rgb(241, 227, 227);
+}
+.fotter img{
+    margin: 3px 255px;
+
+
+}
+.count{
+   margin: 0px 230px;
+}
+
+.count select{
+    
+  width: 88px;
+  height: 33px;
+  font-size: 20px;
+}
+.lang select{
+    width: 88px;
+    height: 33px;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: rgb(186, 172, 172);
+    width: 100%;
+    height:50px;
+    font-size: 19x;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
